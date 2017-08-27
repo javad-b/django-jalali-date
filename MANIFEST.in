@@ -1,2 +1,3 @@
+recursive-include jalali_date/templates *
 recursive-include jalali_date/static *
 include README.md

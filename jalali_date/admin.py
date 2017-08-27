@@ -25,7 +25,6 @@ def removed_in_next_version(msg=''):
 
 
 class ModelAdminJalaliMixin(object):
-    change_form_template = 'admin/jalali_change_form.html'
     formfield_overrides = overrides
 
     def __init__(self, *args, **kwargs):
